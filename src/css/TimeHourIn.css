@@ -1,0 +1,54 @@
+.treeInTime {
+    background-color: #e24435;
+    height: 55px;
+    width: 2px;
+    display: inline-block;
+    transform: translateX(0px);
+}
+.dotTreetime {
+    background-color: #e24435;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 55px;
+    left: -1px;
+}
+.styleInTime {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    margin-left: -17px;
+    color: #7f7e7f;
+}
+.styleIntimeHover {
+    background-color: #da4335;
+    display: inline-block;
+    border-radius: 50%;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    margin-left: -17px;
+}
+@media only screen and (max-width: 320px) {
+    /* .dotTreetime {
+        background-color: #e24435;
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        display: inline-block;
+        position: absolute;
+        top: 32px;
+        left: -1px;
+    }
+    .treeInTime {
+        background-color: #e24435;
+        height: 32px;
+        width: 2px;
+        display: inline-block;
+        transform: translateX(0px);
+    } */
+ }

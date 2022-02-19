@@ -1,0 +1,62 @@
+
+.dotTreetimeMinute {
+    background-color: #da4335;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 132px;
+    left: -1px;
+}
+.treeTimeMinute {
+    background-color: #e24435;
+    height: 135px;
+    width: 2px;
+    display: inline-block;
+    transform: translateX(-6px);
+}
+.styleHoverMinute {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    margin-left: -16px;
+    font-size: 12px;
+    color: #e3e3e3;
+    background-color: #da4335;
+    border-radius: 50%;
+}
+.styleMinute {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    margin-left: -16px;
+    font-size: 12px;
+    color: #e3e3e3;
+}
+.hoverWrapperStyleMinute {
+    position: absolute;
+    left: calc(50% - 3px);
+    top: calc(30% - 40px);
+    width: 0;
+    height: 320px;
+    display: inline-block;
+    text-align: center;
+    background-color: #da4335;
+}
+.wrapperStyleMinute {
+    position: absolute;
+    left: calc(50% - 3px);
+    top: calc(30% - 40px);
+    width: 0;
+    height: 320px;
+    display: inline-block;
+    text-align: center;
+}
+@media only screen and (max-width: 320px) {
+   
+
+ }
+

@@ -1,0 +1,92 @@
+.timeHourOut {
+    position: absolute;
+    top: 30%; 
+    left: calc(50% - 3px); 
+    width: 0;
+    height: 260px;
+    display: inline-block;
+    text-align: center;
+}
+
+.numberTime:hover {
+    background-color: #da4335;
+    border-radius: 50%;
+}
+.timeHourIn {
+    position: absolute;
+    left: 20%;
+    top: calc(30% + 40px); 
+    left: calc(50% - 3px); 
+    width: 0;
+    height: 180px;
+    display: inline-block;
+    text-align: center;
+}
+.screen {
+    font-size: 50px;
+    padding-top: 30px;
+    height: 350px;
+    display: block;
+    text-align: center;
+}
+.wrapper-clock {
+    margin: 0 auto;
+    background-color: #2f2f2f;
+    width: 350px;
+    margin-top: 45px;
+    height: 520px;
+    border-radius: 5px;
+}
+.buttonOk {
+    color: #b13e34;
+    background-color: #2f2f2f;
+    border: none;
+    font-weight: 600;  
+}
+.buttonCancel {
+    margin-top: 80px;
+    background-color: #2f2f2f;
+    border: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #b13e34;
+    margin-left: 200px;
+}
+.screen-time {
+    color: #fff;
+}
+.screen-minute {
+    color: #c1c1c1;
+}
+@media only screen and (max-width: 360px) {
+    .wrapper-clock {
+        width: 315px;
+    }
+    .buttonCancel {
+        margin-left: 100px;
+    }
+ }
+ @media only screen and (max-width: 320px) {
+    /* .wrapper-clock {
+        width: 268px;
+       
+    }
+    .timeHourOut {
+        height: 200px!important;
+    }
+    .wrapperStyleMinute {
+        height: 260px!important;
+    }
+    .timeHourIn {
+        position: absolute;
+        left: 20%;
+        top: calc(30% + 30px);
+        left: calc(50% - 3px);
+        width: 0;
+        height: 138px;
+        display: inline-block;
+        text-align: center;
+    } */
+ }
+
+

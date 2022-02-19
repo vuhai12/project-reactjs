@@ -1,0 +1,54 @@
+.treeTimeOut {
+    background-color: #e24435;
+    height: 95px;
+    width: 2px;
+    display: inline-block;
+    transform: translateX(0px);
+}
+.dotTreetimeOut {
+    background-color: #df4335;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 91px;
+    left: -1px;
+}
+.hoverNumberTimeOut {
+    background-color: #da4335;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: -15px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    color: #e3e3e3;
+}
+.styleNumberTimeOut {
+    display: inline-block;
+    margin-left: -15px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    color: #e3e3e3;
+}
+@media only screen and (max-width: 320px) {
+    /* .treeTimeOut {
+        background-color: #e24435;
+        height: 63px;
+        width: 2px;
+        display: inline-block;
+        transform: translateX(0px);
+    }
+    .dotTreetimeOut {
+        background-color: #df4335;
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        display: inline-block;
+        position: absolute;
+        top: 63px;
+        left: -1px;
+    } */
+ }
